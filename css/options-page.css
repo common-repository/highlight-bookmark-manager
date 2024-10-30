@@ -1,0 +1,96 @@
+/**
+ * +--------------------------------------------------------------------------+
+ * | Copyright (c) 2016  Readdom
+ * +--------------------------------------------------------------------------+
+ * | 
+ * +--------------------------------------------------------------------------+
+ */
+
+/* Card Style */
+.Card {
+  margin-top: 20px;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #e2e5e8;
+  border-bottom-width: 2px;
+  border-radius: 3px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+.Card-hd {
+  border-bottom: 1px solid #ccc;
+}
+
+.Card-hd .Tabbed-nav {
+  border-bottom: 0;
+}
+
+.Card-hd-title {
+  margin: 20px 0 20px 25px;
+  padding: 0;
+  color: #333;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.3;
+}
+
+.Card-bd {
+  margin: 20px;
+}
+
+.Card-bd textarea {
+  width: 100%;
+}
+
+.Card-bd table textarea {
+  margin-left: 10px;
+  margin-top: 10px
+}
+
+.Card-option-list > li {
+  margin-bottom: 20px;
+}
+
+.form-table .option-input{
+  width: 100%;
+}
+
+.Card-Small{
+  margin-top: 20px;
+  padding: 0px;
+  background: #fff;
+  border-left: 5px solid #f8e437;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  float: left;
+  margin-right: 1%;
+  width:32%;
+}
+
+  .Card-Small h2{
+    font-size: 18px;
+    color:#727171;
+    margin: 10px 0px 0px 0px;
+    padding:12px 24px;
+    width:40%;
+    float: left;
+  }
+  .Card-Small .number{
+    font-size: 24px;
+    color:#000000;
+    text-align: right;
+    margin: 10px 0px 0px 0px;
+    padding:12px 24px;
+    width:40%;
+    float: right;
+  }
+  .Card-Small .more{
+    font-size: 12px;
+    color:#000000;
+    text-align: right;
+    margin: 0px;
+    padding:0px 24px 12px;
+    width:50%;
+    float: right;
+  }
